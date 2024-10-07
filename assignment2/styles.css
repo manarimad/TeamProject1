@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+.profile-img {
+    width: 200px;
+    border: 5px solid #4CAF50;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.hobbies-section {
+    text-align: center;
+}
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby-item {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.hobby-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hobby-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.hobby-item p {
+    font-size: 1.2em;
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 0;
+}
+
+#future {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.project-link {
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background-color: #3e8e41;
+    transition: background-color 0.3s;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+form input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3e8e41;
+    transition: background-color 0.3s;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manar Imad's Website</title>
+    <style>
+        /* Basic styling for the website */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        .hobbies-list li {
+            margin-bottom: 20px;
+        }
+        /* Styling for the menu */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        /* Styling for sections */
+        section {
+            margin: 20px;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 20px auto;
+        }
+        form label, form input {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#guess-hobby">Guess My Hobby</a></li>
+            <li><a href="#aspirations">Aspirations</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Manar Imad</h1>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, my name is Manar Imad. I am passionate about coding, creativity, and self-development. I love exploring new things and constantly learning more about the world and technology.</p>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul class="hobbies-list">
+            <li><a href="https://en.wikipedia.org/wiki/Photography" target="_blank">Photography</a> - <img src="photography.jpg" alt="Photography"></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cooking" target="_blank">Cooking</a> - <img src="cooking.jpg" alt="Cooking"></li>
+            <li><a href="https://en.wikipedia.org/wiki/Travel" target="_blank">Traveling</a> - <img src="travel.jpg" alt="Traveling"></li>
+        </ul>
+    </section>
+
+    <!-- Guess Favorite Hobby Form Section -->
+    <section id="guess-hobby">
+        <h2>Guess My Favorite Hobby</h2>
+        <form>
+            <label for="hobby">Guess my favorite hobby:</label>
+            <input type="text" id="hobby" name="hobby" placeholder="Enter a hobby">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Aspirations Section -->
+    <section id="aspirations">
+        <h2>My Aspirations</h2>
+        <p>In the future, I aspire to be a [career or goal], contributing to the world in innovative ways through technology and creativity. I am constantly working towards this dream by learning new skills and gaining experience.</p>
+    </section>
+
+    <!-- Previous Project Section -->
+    <section id="projects">
+        <h2>Previous Projects</h2>
+        <p>Check out one of my previous projects: <a href="https://github.com/yourrepo">Project Link</a></p>
+    </section>
+
+</body>
+</html>
